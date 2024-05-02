@@ -18,16 +18,16 @@ export function Footer() {
           <div>
             <FooterBrand
               href="/"
-              src="https://flowbite.com/docs/images/logo.svg"
-              alt="Flowbite Logo"
-              name="QuangAnh"
+              src="/images/logo.png"
+              alt="Quang Anh Snake Logo"
+              name="Quang Anh Snake"
             />
           </div>
           <div className="grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div>
               <FooterTitle title="about" />
               <FooterLinkGroup col>
-                <FooterLink href="#">QuangAnh</FooterLink>
+                <FooterLink href="#">Quang Anh Snake</FooterLink>
                 <FooterLink href="#">Blogger</FooterLink>
               </FooterLinkGroup>
             </div>
@@ -49,7 +49,7 @@ export function Footer() {
         </div>
         <FooterDivider />
         <div className="w-full sm:flex sm:items-center sm:justify-between">
-          <FooterCopyright href="/" by="QuangAnh" year={2024} />
+          <FooterCopyright href="/" by="Quang Anh Snake" year={2024} />
           <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
             <FooterIcon href="#" icon={BsFacebook} />
             <FooterIcon href="#" icon={BsInstagram} />

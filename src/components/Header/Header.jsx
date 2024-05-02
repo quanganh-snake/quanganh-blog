@@ -13,7 +13,7 @@ export default function Header() {
     <header className="w-full shadow-md">
       <MegaMenu className="container p-4">
         <NavbarBrand href="/">
-          <img alt="" src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" />
+          <img alt="Logo Quang Anh Snake" src="/images/logo.png" className="mr-3 h-6 sm:h-9" />
           <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
             Quang Anh Snake
           </span>

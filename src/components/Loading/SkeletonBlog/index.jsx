@@ -1,3 +1,4 @@
 import SkeletonBlogItem from './SkeletonBlogItem'
 import SkeletonBlogList from './SkeletonBlogList'
-export { SkeletonBlogItem, SkeletonBlogList }
+import SkeletonBlogDetail from './SkeletonBlogDetail'
+export const SkeletonBlog = { SkeletonBlogItem, SkeletonBlogList, SkeletonBlogDetail }

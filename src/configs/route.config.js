@@ -96,4 +96,12 @@ export const routeConfig = {
     path: '/lien-he',
     label: 'Liên hệ',
   },
+  blogDetail: {
+    path: '/bai-viet',
+    label: 'Chi tiết bài viết',
+  },
+  categories: {
+    path: '/the-loai',
+    label: 'Thể loại',
+  },
 }

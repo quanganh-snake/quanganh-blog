@@ -3,8 +3,8 @@ import { useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { getAllBlog } from './../../../api/blog.api'
 import BlogList from '../../../components/BlogList/BlogList'
-import { SkeletonBlogList } from '../../../components/Loading/SkeletonBlog'
 import Swal from 'sweetalert2'
+import SkeletonBlogList from './../../../components/Loading/SkeletonBlog/SkeletonBlogList'
 
 function Home() {
   const [selectedTypeBlog, setSelectedTypeBlog] = useState('Tất cả bài viết')
